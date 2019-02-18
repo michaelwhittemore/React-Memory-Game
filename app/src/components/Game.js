@@ -10,7 +10,7 @@ class Game extends Component {
         best: 0,
         //card array should be an array on key value pairs
         //and we need a method to shuffle them
-        cardArray: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+        cardArray: [[1,"https://upload.wikimedia.org/wikipedia/en/d/dc/MichaelScott.png"], [2,"https://upload.wikimedia.org/wikipedia/en/c/cd/Dwight_Schrute.jpg"], [3,"https://upload.wikimedia.org/wikipedia/en/7/7e/Jim-halpert.jpg"], [4,"https://upload.wikimedia.org/wikipedia/en/6/67/Pam_Beesley.jpg"],[5,"https://upload.wikimedia.org/wikipedia/en/0/0b/Angela_Martin.jpg"],[6,"https://upload.wikimedia.org/wikipedia/en/8/84/Andy_Bernard_photoshot.jpg"],[7,"https://upload.wikimedia.org/wikipedia/en/1/18/Toby_Flenderson_promo_picture.jpg"],[8,"https://upload.wikimedia.org/wikipedia/en/6/60/Office-1200-baumgartner1.jpg"],[9,"https://upload.wikimedia.org/wikipedia/en/2/23/Stanley_Hudson.jpg"],[10,"https://upload.wikimedia.org/wikipedia/en/6/6f/Meredith_Palmer.jpg"],[11,"https://upload.wikimedia.org/wikipedia/en/6/69/Kelly_Kapoor.jpg"],[12,"https://upload.wikimedia.org/wikipedia/en/f/ff/Phyllis_Lapin-Vance.jpg"]],
         //add the corresponding id to the clicked array
         //everytime that a component is clicked
         clickedArray: []
